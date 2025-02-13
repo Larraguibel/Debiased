@@ -6,13 +6,24 @@ name = "pypi"
 [packages]
 numpy = "*"
 pandas = "*"
-ipykernel = "*"
 matplotlib = "*"
+scipy = "*"
+seaborn = "*"
+scikit-learn = "*"
+jupyter = "*"
+ipykernel = "*"
 geopandas = "*"
 geemap = "*"
+ee = "*"
+googlemaps = "*"
+geedim = "*"
+jupyterlab-widgets = "*"
+ipywidgets = "*"
+pyproj = "*"
+imageio = "*"
+pillow = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.9"
-python_full_version = "3.9.6"
