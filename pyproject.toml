@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "debiased"
+version = "0.1.0"
+description = ""
+authors = ["Larraguibel <dlarraguibel@uc.cl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.3.0"
+matplotlib = "^3.10.3"
+pandas = "^2.3.0"
+black = "^25.1.0"
+pytest = "^8.4.0"
+pathlib = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
