@@ -13,10 +13,13 @@ pandas = "^2.3.0"
 black = "^25.1.0"
 pytest = "^8.4.0"
 pathlib = "^1.0.1"
+earthengine-api = "^1.5.24"
+geedim = "^1.9.1"
 
 
 [tool.poetry.group.dev.dependencies]
 black = "^25.1.0"
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
